@@ -1,0 +1,53 @@
+body {
+    background-color: #fda2df;
+}
+
+.fixed-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fc87d5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.box {
+    background-color: #fc87d5;
+    height: 85vh;
+    width: 85vw;
+    display: flex;
+    justify-self: center;
+}
+
+.spacing {
+    padding-bottom: 3vh;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+strong {
+    font-size: 5vw;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 30vw;
+    height: auto;
+}
+
+.center {
+    display: grid;
+    justify-content: center;
+}
