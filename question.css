@@ -3,18 +3,13 @@ body {
 }
 
 .center {
-    margin: 0;
-    position: absolute;
-    top: 45%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding-left: 15vw;
     display: grid;
     justify-items: center;
+    padding-top: 4vh;
 }
 
 .big{
-    font-size:15vw;
+    font-size:5vw;
     color: white;
     font-weight: bold;
     padding-bottom: 3vh;
@@ -24,12 +19,12 @@ body {
 .mid {
     color: white;
     padding-bottom: 3vh;
-    font-size: 7vw;
+    font-size: 2vw;
 }
 
 img {
     height: auto;
-    width: 40vw;
+    width: 20vw;
     padding-top: 5vh;
 }
 
