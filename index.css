@@ -40,7 +40,7 @@ li {
 
 .grad {
     width: auto;
-    height: 50vh;
+    height: 45vh;
     display: grid;
     justify-self: center;
 }
