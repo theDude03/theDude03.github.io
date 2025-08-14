@@ -20,9 +20,9 @@ body {
 .box {
     background-color: #fc87d5;
     height: 85vh;
-    width: 95vw;
-    display: flexbox;
-    justify-self:center;
+    width: 85vw;
+    display: flex;
+    justify-self: center;
 }
 
 .spacing {
@@ -31,11 +31,10 @@ body {
 
 p {
     color: rgb(255, 255, 255);
-    font-size: 1vw;
 }
 
 strong {
-    font-size: 2vw;
+    font-size: 5vw;
     font-style: italic;
 }
 
@@ -44,33 +43,8 @@ ul {
 }
 
 img {
-    width: 10vw;
+    width: 30vw;
     height: auto;
-    display: grid;
-    justify-self: center;
-}
-
-.cUL {
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.cIL {
-    flex: 1;
-    padding: 20px;
-}
-
-li {
-    display: grid;
-    justify-content: center;
-    margin-bottom: -20px;
-}
-
-img {
-    margin: 40px;
 }
 
 .center {
