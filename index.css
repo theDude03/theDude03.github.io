@@ -2,62 +2,25 @@ body {
     background-color: #fda2df;
 }
 
-p {
-    display: grid;
-    justify-self: center;
-    width: 80%;
-    text-align: center;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    flex: 1;
+    padding: 20px;
 }
 
 .top {
     display: grid;
     justify-content: center;
     font-weight: bolder;
-    font-size: 15vw;
+    font-size: 7vw;
     color: white;
     padding-top: 5vh;
-}
-
-.subtop {
-    display: grid;
-    justify-content: center;
-    font-weight: bolder;
-    font-size: 8vw;
-    color: white;
-    padding-bottom: 3vh;
-}
-
-.date {
-    color: rgb(124, 123, 123);
-    display: grid;
-    justify-content: center;
-    font-size: larger;
-    text-decoration: underline;
-}
-
-.img-inline {
-    display: inline-block;
-    width: 40%; 
-    vertical-align:top;
-    margin-right: 1%;
-    padding-left: 7vw;
-}
-
-.img-inline img {
-    width: 90%;
-    height: auto;
-    display: block; }
-
-
-.ig {
-    padding-bottom: 3vh;
-}
-
-.stPG {
-    width: 70%;
-    height: auto;
-    display: grid;
-    justify-self: center;
 }
 
 .fixed-btn {
@@ -73,4 +36,32 @@ p {
     border: none;
     cursor: pointer;
     text-decoration: none;
+}
+
+.grad {
+    width: auto;
+    height: 50vh;
+    display: grid;
+    justify-self: center;
+}
+
+.her {
+    display: grid;
+    justify-self: center;
+    padding-top: 10vh;
+}
+
+.date {
+    color: rgb(233, 231, 231);
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    display: grid;
+    justify-self: center;
+}
+
+p {
+    display: grid;
+    justify-content: center;
+    font-size: 30px;
 }
