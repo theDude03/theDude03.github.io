@@ -76,4 +76,5 @@ img {
 .center {
     display: grid;
     justify-content: center;
+    padding-top: 8vh;
 }
